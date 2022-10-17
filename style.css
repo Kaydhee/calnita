@@ -307,6 +307,10 @@ header {
     font-size: 1.7rem;
   }
 
+  .hero__left p {
+    font-size: 0.8rem;
+  }
+
   .hero__left ul {
     justify-content: center;
     gap: 2rem;
@@ -470,6 +474,10 @@ header {
 
   .earn__section-left h2 {
     font-size: 1.7rem;
+  }
+
+  .earn__section-left p {
+    font-size: 0.8rem;
   }
 
   .earn__section-right img {
@@ -637,6 +645,10 @@ header {
     column-gap: 2rem;
   }
 }
+
+.features__container h2 {
+  font-size: 1.7rem;
+}
 /* END OF FEATURES SECTION */
 
 /* CONTACT SECTION */
@@ -689,9 +701,9 @@ header {
 }
 
 @media (max-width: 524px) {
-  .contact__section {
-    padding: 1rem;
-  }
+  /* .contact__section {
+    /* padding: 1rem; 
+  } */
 
   .contact__section h2 {
     font-size: 1.4rem;
@@ -739,14 +751,17 @@ footer {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    /* margin-top: -1rem; */
+    height: 100%;
+    padding: 0.5rem 0;
   }
 
   .social__links {
     gap: 0.5rem;
-    margin-top: -3rem;
+    margin-top: -3.5rem;
     margin-left: 1rem;
     margin-right: 1rem;
+    margin-bottom: 0;
+    height: 1.3rem;
   }
 }
 /* END OF FOOTER SECTION */
