@@ -171,7 +171,7 @@ header {
 }
 
 .hero__left p {
-  animation-delay: 2s;
+  animation-delay: 1.5s;
 }
 
 .hero__form {
@@ -180,7 +180,7 @@ header {
   gap: 1rem;
   width: 100%;
   margin-bottom: 4rem;
-  animation-delay: 3s;
+  animation-delay: 2s;
 }
 
 .hero__form input {
@@ -195,7 +195,7 @@ header {
   align-items: center;
   gap: 4rem;
   cursor: pointer;
-  animation-delay: 5s;
+  animation-delay: 2.5s;
 }
 
 .hero__right {
@@ -209,6 +209,8 @@ header {
 
 .hero__right img {
   height: 100vh;
+  animation-delay: 1s;
+  /* transition: transform 1s, opacity 1s; */
 }
 /* End of Hero section */
 
